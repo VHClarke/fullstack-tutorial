@@ -41,7 +41,8 @@ class LaunchAPI extends RESTDataSource {
          launchIds.map(launchId => this.getLaunchById({ launchId })),
        );
      }
-     
+
 }
 
   module.exports = LaunchAPI;
+  
